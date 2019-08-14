@@ -1,0 +1,7 @@
+<h1>These are all the cryptids</h1>
+<ul>
+	<% myCryptids.forEach(cryptid => { %>
+		<li><%= cryptid.name %> </li>
+		<img src="<%= cryptid.img_url %>">
+	<% }) %>
+</ul>
